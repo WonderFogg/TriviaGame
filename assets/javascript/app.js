@@ -22,8 +22,7 @@ const myQuestions = [
 	answers: {
 		a: "AAAAAAAAAA",
 		b: "BBBBBBBBBB",
-		c: "CCCCCCCCCC",
-		d: "DDDDDDDDDD",
+		
 	},
 	correctAnswer: "b"
 },     
@@ -31,20 +30,18 @@ const myQuestions = [
     answers: {
       a: "aaaaaaaaaa",
       b: "bbbbbbbbbbb",
-      c: "cccccccc",
-      d: "dddddddd",
+      
     },
-    correctAnswer: "c"
+    correctAnswer: ""
   },
   {
     question: "q3333333333333333?",
     answers: {
       a: "aaaaaaaaaa",
       b: "bbbbbbbbbbb",
-      c: "cccccccc",
-      d: "dddddddd",
+     
     },
-    correctAnswer: "d"
+    correctAnswer: ""
   }
 
   ];

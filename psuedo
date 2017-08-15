@@ -1,3 +1,80 @@
+object CAR
+properties WEIGHT, COLOR
+metholds  START, STOP
+
+game loads and begins 
+
+DIRECTIONS PROMPT
+  answer as. many t/r questions as you can in 60 seconds
+
+
+QUESTION ASKED
+    Prompts guess true or flase 
+
+
+
+
+QUESTIONS
+choices
+
+SCORE
+
+TIMER
+
+
+OBJECTS
+
+
+VARIABLES
+
+correct answer
+incorrect answer
+
+
+OPERATORS
+
+
+
+FUNCTIONS
+BUILD FROM QUESTIONS sitepoint follow
+timer starts
+clock contdown
+game ends 
+display total correct and correct answers
+
+
+
+OBJECTS 
+
+
+
+
+EVENTS
+page load
+
+
+
+QUESTIONS 
+If you life a kangaroo's tail off the ground it can't hop.
+
+
+
+
+
+The word “democracy” is not found in the Constitution of the United States of America nor is it present in the Declaration of Independence
+
+
+False
+Pencils were originally made out of real lead. 
+
+
+
+
+
+
+
+Pencil lead was never made of real lead. It has always been graphite. Instead, the lead poisoning from pencils came from the lead-based paint. The core of a pencil is probably called lead because that’s what graphite was mistaken for when it was first discovered, a form of lead
+
 
 
 
