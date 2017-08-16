@@ -10,9 +10,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	
+   <script src="assets/javascript/app.js"></script>	
+   <script type="text/javascript" src="/js/quiz-1.js"></script>
 </head>
-
 
 <body>
 
@@ -22,138 +22,149 @@
     <p>How many questions can you guess correctly in 60 seconds.</p>  
   </div>	
 
-	<div id="quiz"></div>
-	<div id="results"></div>
-	<div id="timer"></div>
 
-	<!--  "yes for correct answer. " -->
-	<div class="question">
-	  <h3>Some statement</h3>
-	  <p class="no">True</p>
-	  <p class="yes">False</p>
-	</div>
 	
  
-
- 	<div class="question">
-	  <h3>Leonardo DaVinci invented scissors.</h3>
-	  <p class="no">False</p>
-	  <p class="yes">True</p>
-	</div>
-	
-	
-
-    <div class="question">
-	  <h3>Men blink more than women do.</h3>
-	  <p class="no">True</p>
-	  <p class="yes">False</p>
-	</div>
-	
-
-    <div class="question">
-	  <h3>A sneeze travels out your mouth at over 100 m.p.h.</h3>
-	  <p class="no">False</p>
-	  <p class="yes">True</p>
-	</div>
-	
-
-	 <div class="question">
-	  <h3>Men can read smaller print than women. Women can hear better.</h3>
-	  <p class="no">False</p>
-	  <p class="yes">True</p>
-	</div>
-
-	 <div class="question">
-	  <h3>A shrimp's heart is in its head.</h3>
-	  <p class="no">False</p>
-	  <p class="yes">True</p>
-	</div>
-
-	 <div class="question">
-	  <h3>Only female mosquitoes bite.</h3>
-	  <p class="no">False</p>
-	  <p class="yes">True</p>
-	</div>
-
-	<div class="question">
-	  <h3>Dolphins sleep with one eye open..</h3>
-	  <p class="no">False</p>
-	  <p class="yes">True</p>
-	</div>
-
-	 <div class="question">
-	  <h3>The electric chair was invented by a Judge.</h3>
-	  <p class="yes">False</p>
-	  <p class="no">True</p>
-	  <!-- The electric chair was invented by a dentist. -->
-	</div>
+<p class="question">1. Leonardo DaVinci invented scissors.</p>
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">True</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">False</label><br/>
+</ul>
 
 
+<p class="question">2. Men blink more than women do.</p>
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">True</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">False</label><br/>
+</ul>
 
-	<div class="question">
-	  <h3>Toto was paid $1000 per week while filming The Wizard of Oz..</h3>
-	  <p class="yes">False</p>
-	  <p class="no">True</p>
-	  <!-- Toto WAS only paid $125 per week while filming The Wizard of Oz. -->
-	</div>
+<p class="question">3. A sneeze travels out your mouth at over 100 m.p.h..</p>
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">True</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">False</label><br/>
+</ul>
 
+<p class="question">4. Men can read smaller print than women. Women can hear better.</p>
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">True</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">False</label><br/>
+</ul>
 
-	<div class="question">
-	  <h3>Coca-cola was originally green.</h3>
-	  <p class="no">False</p>
-	  <p class="yes">True</p>
-	</div>
+<p class="question">5. A shrimp's heart is in its head.</p>
 
-    <div class="question">
-	  <h3>Dolphins sleep with one eye open.</h3>
-	  <p class="no">False</p>
-	  <p class="yes">True</p>
-	</div>
-
-
-	<div class="question">
-	  <h3>A dime has 77 ridges around the edge..</h3>
-	  <p class="yes">False</p>
-	  <p class="no">True</p>
-	  <!-- A dime has 118 ridges around the edge. -->
-	</div>
-
-	<div class="question">
-	  <h3>People who try to keep everyone happy often end up feeling the loneliest.</h3>
-	  <p class="no">False</p>
-	  <p class="yes">True</p>
-	</div>
-
-	 <div class="question">
-	  <h3>The happier we are, the less sleep we require.</h3>
-	  <p class="no">False</p>
-	  <p class="yes">True</p>
-	</div>
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">True</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">False</label><br/>
+</ul>
 
 
-	<div class="question">
-	  <h3>The Slinky was the first toy to be advertised on TV.</h3>
-	  <p class="yes">False</p>
-	  <p class="no">True</p>
-	  <!-- Mr Potato Head was the first toy to be advertised on TV. -->
-	</div>
+<p class="question">6. Only female mosquitoes bite.</p>
+
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">True</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">False</label><br/>
+</ul>
+
+
+<p class="question">7. A dime has 77 ridges around the edge.</p>
+
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">True</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">False</label><br/>
+</ul>
+
+
+<p class="question">8. The electric chair was invented by a Judge.</p>
+
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">True</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">False</label><br/>
+</ul>
+
+
+<p class="question">9. Toto was paid $1000 per week while filming The Wizard of Oz.</p>
+
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">True</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">False</label><br/>
+</ul>
+
+
+<p class="question">10. The Slinky was the first toy to be advertised on TV.</p>
+
+<ul class="answers">
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">True</label><br/>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">False</label><br/>
+</ul>
+
+<!-- ============================================ -->
+
+
+<br/>
+<div id="results">            
+Show me the answers!       
+</div>                
+<div id="category1">
+<p><strong>Question 1:</strong> The correct answer is the <strong>a</strong>.</p>
+</div>
 
 
 
+<div id="category1">
+<p><strong>Question 1:</strong> The correct answer is the <strong>a</strong>.</p>
+</div>
+
+<div id="category2">            
+<p>              
+<strong>Question 2:</strong> The correct answer is <strong>b</strong>.</p>        
+</div>        
+
+<div id="category3">            
+<p>                
+<strong>Question 3:</strong> The correct answer is <strong>a</strong>.</p>        
+</div>        
+
+<div id="category4">            
+<p>               
+<strong>Question 4:</strong> The correct answer is <strong>a</strong>.</p>        
+</div>        
+
+<div id="category5">            
+<p>                
+<strong>Question 5:</strong> The correct answer is <strong>a</strong>.</p>        
+</div>        
+
+<div id="category6">            
+<p>                
+<strong>Question 6:</strong> The correct answer is <strong>a</strong>.</p>        
+</div>        
+
+<div id="category7">            
+<p>                
+<strong>Question 7:</strong> The correct answer is <strong>b a dime has 118 ridges around the edge.</strong>.</p>        
+</div>        
+
+<div id="category8">            
+<p>               
+<strong>Question 8:</strong> The correct answer is <strong>b The electric chair was invented by a dentist.</strong>.</p>        
+</div>        
+
+<div id="category9">           
+<p>               
+<strong>Question 9:</strong> The correct answer is <strong>b  Toto WAS only paid $125 per week while filming The Wizard of Oz.</strong>.</p>        
+</div>        
+
+<div id="category10">            
+<p>                
+<strong>Question 10:</strong> The correct answer is <strong>b Mr Potato Head was the first toy to be advertised on TV</strong>.</p>        
+</div>        
+
+
+</ul> 
 
 
 
 
-
-
-	</div>
-
-	</div>
-
-
-
-
-<
  	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
